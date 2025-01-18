@@ -1,0 +1,13 @@
+# Week 2 Video 1 Task 1
+class Rectangle:
+    def __init__(self,length,width):
+        self.length = length
+        self.width = width
+
+    def calculate_area(self):
+        return self.length * self.width
+
+rectFun = Rectangle(12,25)
+
+area = rectFun.calculate_area()
+print(area)
